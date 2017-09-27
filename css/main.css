@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed:300');
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	height: 100%;
 	width: 100%;
-	background-color: pink;
+	margin: 0;
+	background-color: #ff8080;
+}
+
+i.fa.fa-hand-peace-o {
+	margin-left: 10px;
+	font-size: 22px;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 300px;
+	letter-spacing: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
