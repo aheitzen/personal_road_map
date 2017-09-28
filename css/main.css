@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed:300');
 
-html {
-	height: 100%;
-	width: 100%;
-}
-
+html,
 body {
 	height: 100%;
 	width: 100%;
@@ -17,19 +13,97 @@ i.fa.fa-hand-peace-o {
 	font-size: 22px;
 }
 
-p {
-	text-align: center;
-	color: white;
-	font-size: 1.5em;
-	font-family: 'Roboto Condensed', sans-serif;
+#dead-center {
+ text-align: center;
+ position: absolute;
+ top: calc(45% - 250px);
+ width: 100%;
+
 }
 
-span {
+#test {
+	text-align: center;
+}
+
+div.show-text {
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	font-size: 300px;
 	letter-spacing: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: inline-block;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	margin: 0;
 }
+
+.show-text div {
+	position: absolute;
+	font-size: 16px;
+	letter-spacing: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	left: 10%;
+	width: 80%;
+	display: none;
+}
+
+.show-text:hover div {
+	display: block;
+}
+
+div.small-font {
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 0;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+/*div {
+	position: absolute;
+}*/
+
+#first-letter:hover {
+	color: blue;
+	cursor: pointer;
+	animation-name: fadeIn;
+	margin-top: 0;
+}
+
+#second-letter:hover {
+	color: green;
+	cursor: pointer;
+	animation-name: fadeIn;
+}
+
+#third-letter:hover {
+	color: red;
+	cursor: pointer;
+}
+
+#fourth-letter:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+#fifth-letter:hover {
+	color: black;
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+
+/*calc(50% - "halfwidth"px);*/
+
+/*calc(50% - 720px);*/
