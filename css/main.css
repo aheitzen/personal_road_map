@@ -5,13 +5,13 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background-color: blue;
+	background-color: black;
 }
 
 i.fa.fa-hand-peace-o {
 	margin-left: 10px;
 	font-size: 22px;
-	color: red;
+	color: #a64dff;
 }
 
 #dead-center {
@@ -59,23 +59,23 @@ div.small-font {
 }
 
 #first-letter:hover {
-	color: red;
+	color: #ff3300;
 }
 
 #second-letter:hover {
-	color: red;
+	color: #ff3300;
 }
 
 #third-letter:hover {
-	color: red;
+	color: #ff3300;
 }
 
 #fourth-letter:hover {
-	color: red;
+	color: #ff3300;
 }
 
 #fifth-letter:hover {
-	color: red;
+	color: #ff3300;
 }
 
 @keyframes fadeIn {
